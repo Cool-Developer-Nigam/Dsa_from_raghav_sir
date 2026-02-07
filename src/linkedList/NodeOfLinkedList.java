@@ -1,12 +1,12 @@
 package linkedList;
 
 class Node{   // this is a user defined data type using class
-     int val;
-     Node next;  //by default the value of next is null until you have added value to it added value to it
-Node(int val){
-    this.val=val;
-}
+    int val;
+    Node next;  //by default the value of next is null until you have added value to it added value to it
 
+    Node(int val){ //constructor
+        this.val=val;
+    }
 }
 
 public class NodeOfLinkedList {
