@@ -33,7 +33,7 @@ public class DisplayLinkedList {
 //
         while(temp!=null) { //because last element is storing null in his next
             System.out.print(temp.val + " "); // then we will print the value
-                    temp = temp.next;// very very important because temp.next is the containg the reference of next element , so after printing one element we wre going to next element just like temp++ in normal array
+                    temp = temp.next;// very, very important because temp.next is the containg the reference of next element , so after printing one element we wre going to next element just like temp++ in normal array
 
         }
 
