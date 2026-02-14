@@ -11,8 +11,7 @@ class ListNode {
 public class middle_element {
     public ListNode middleNode(ListNode head) {
 
-//      this is a 2 traverse technique technically same time complexity as of slow fast but nnot the best one
-//
+//      this is a 2 traverse technique technically same time complexity as of slow fast but not the best one
 //        int size=0;
 //        for(ListNode temp=head;temp!=null;temp=temp.next){
 //            size++;

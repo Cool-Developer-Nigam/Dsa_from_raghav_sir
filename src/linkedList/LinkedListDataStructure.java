@@ -56,7 +56,7 @@ class Linkedlist{ //it is user defined data structure ,
         //directly move your head to next element simple .
         // no need the change the reference of the previous node
 
-        if(head==null)tail=null;//in case the Linked list has only one element now we have deleted
+        if(head==null)tail=null; //in case the Linked list has only one element now we have deleted
         // so head has become null that now we also need to move the tail to null also
 
         size--;
@@ -158,13 +158,13 @@ public class LinkedListDataStructure {
 
 //      System.out.println( ll.search(30));
 
-//        ll.deleteAtTail();
-//        ll.display();
+//      ll.deleteAtTail();
+//      ll.display();
 
         ll.insert(3,10);
         ll.display();
 
-//        System.out.println(  ll.get(5));
+//      System.out.println(  ll.get(5));
 
         ll.delete(4);
         ll.display();
