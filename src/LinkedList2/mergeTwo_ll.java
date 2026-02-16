@@ -1,0 +1,48 @@
+package LinkedList2;
+
+public class mergeTwo_ll {
+
+
+      public class ListNode {
+          int val;
+          ListNode next;
+
+          ListNode() {
+          }
+
+          ListNode(int val) {
+              this.val = val;
+          }
+
+          ListNode(int val, ListNode next) {
+              this.val = val;
+              this.next = next;
+          }
+
+      }
+
+      public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+                  ListNode i = list1;
+                  ListNode j = list2;
+                  ListNode d = new ListNode(-1);
+                  ListNode k = d;
+                  while (i != null && j != null) {
+                      if (i.val <= j.val) {
+                          k.next = i;
+                          i = i.next;
+                      } else {
+                          k.next = j;
+                          j = j.next;
+                      }
+                      k = k.next;
+                  }
+                  if (i == null) {
+                      k.next = j;
+                  }
+                  if (j == null) {
+                      k.next = i;
+                  }
+                  return d.next;
+              }
+          }
+
