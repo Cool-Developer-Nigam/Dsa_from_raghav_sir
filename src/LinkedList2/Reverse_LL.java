@@ -38,5 +38,17 @@ public class Reverse_LL {
             }
             return p;
     }
+
+
+//    with recursive approach
+    public ListNode reverseList(ListNode head){
+        if(head==null || head.next==null)return head;
+        ListNode a=head.next;
+        head.next=null;
+        ListNode b=reverseList(a);
+        a.next=head;
+        return b;
+    }
+
     }
 
