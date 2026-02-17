@@ -2,7 +2,9 @@ package linkedList;
 
 public class RotateList {
 
-    class Solution {
+        static void main() {
+
+        }
         int length(ListNode head){
             ListNode temp = head;
             int l = 0;  // Fixed: should start at 0, not 1
@@ -41,5 +43,5 @@ public class RotateList {
             return newHead;
         }
     }
-    }
+
 
