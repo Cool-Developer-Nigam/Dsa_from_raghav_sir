@@ -18,6 +18,9 @@ public class Pallindrome {
 //            }
 //            return true;
 //        }
+
+//    without extra space
+
 ListNode reverse(ListNode head){
     ListNode c=head;
     ListNode p=null;
