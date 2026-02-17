@@ -3,8 +3,8 @@ package LinkedList2;
 import java.util.ArrayList;
 
 public class Reverse_LL {
-    class Solution {
-        public ListNode reverseList(ListNode head) {
+//  with extra arrayList
+        public ListNode reverseList_With_Arraylist(ListNode head) {
             if(head==null || head.next==null)return head;
             ArrayList<ListNode> arr=new ArrayList();
 
@@ -22,5 +22,21 @@ public class Reverse_LL {
             arr.get(0).next=null;
             return arr.get(size-1);
         }
+
+//        without extra space
+
+    ListNode reverse(ListNode head){
+            ListNode c=head;
+            ListNode p=null;
+            ListNode f=head;
+
+            while(c!=null){
+                f=c.next;
+                c.next=p;
+                p=c;
+                c=f;
+            }
+            return p;
     }
-}
+    }
+
