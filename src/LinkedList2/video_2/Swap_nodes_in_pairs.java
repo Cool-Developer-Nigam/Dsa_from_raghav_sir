@@ -1,4 +1,4 @@
-package LinkedList2;
+package LinkedList2.video_2;
 
 public class Swap_nodes_in_pairs {
 

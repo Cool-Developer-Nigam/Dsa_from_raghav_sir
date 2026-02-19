@@ -1,4 +1,4 @@
-package LinkedList2;
+package LinkedList2.video_1;
 
 public class reorder_list {
     class Solution {

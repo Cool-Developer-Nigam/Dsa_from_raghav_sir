@@ -1,6 +1,4 @@
-package LinkedList2;
-
-import java.util.ArrayList;
+package LinkedList2.video_1;
 
 public class Pallindrome {
 

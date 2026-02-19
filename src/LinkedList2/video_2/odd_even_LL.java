@@ -1,5 +1,13 @@
-package LinkedList2;
+package LinkedList2.video_2;
 
+
+ class ListNode {
+      int val;
+      ListNode next;
+      ListNode() {}
+      ListNode(int val) { this.val = val; }
+      ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+  }
 public class odd_even_LL {
 //    with index
         public ListNode oddEvenList(ListNode head) {

@@ -1,4 +1,4 @@
-package LinkedList2;
+package LinkedList2.video_1;
 
 import java.util.ArrayList;
 

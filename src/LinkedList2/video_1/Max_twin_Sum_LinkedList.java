@@ -1,4 +1,4 @@
-package LinkedList2;
+package LinkedList2.video_1;
 
 public class Max_twin_Sum_LinkedList {
     class Solution {

@@ -1,4 +1,4 @@
-package LinkedList2;
+package LinkedList2.video_1;
 
 public class Partition_LL {
     public ListNode partition(ListNode head, int x) {
