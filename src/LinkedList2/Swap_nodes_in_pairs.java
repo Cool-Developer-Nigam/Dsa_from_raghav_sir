@@ -50,4 +50,25 @@ public class Swap_nodes_in_pairs {
             return d.next;
         }
 
+//        by 3 variables method without extra other methods
+class Solution {
+    public ListNode swapPairs(ListNode head) {
+        if(head==null || head.next==null)return head;
+        ListNode d=new ListNode(-1);
+
+        ListNode a=head;
+        ListNode b=head.next;
+        ListNode c=d;
+        while(a!=null && b!=null){
+            c.next=b;
+            a.next=b.next;
+            b.next=a;
+            c=a;
+            a=a.next;
+            if(a!=null)b=a.next;
+        }
+        return d.next;
+    }
+
+}
 }
