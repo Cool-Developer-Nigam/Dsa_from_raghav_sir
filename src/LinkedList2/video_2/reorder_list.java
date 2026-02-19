@@ -1,4 +1,4 @@
-package LinkedList2.video_1;
+package LinkedList2.video_2;
 
 public class reorder_list {
     class Solution {
@@ -17,7 +17,7 @@ public class reorder_list {
             head=merge(head,head2);
             return;
         }
-        ListNode merge(ListNode head,ListNode head2){
+        ListNode merge(ListNode head, ListNode head2){
             ListNode i=head;
             ListNode j=head2;
             ListNode d=new ListNode(-1);
