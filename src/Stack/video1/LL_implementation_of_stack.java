@@ -1,4 +1,4 @@
-package Stack;
+package Stack.video1;
 
 class Node{
     int val;
